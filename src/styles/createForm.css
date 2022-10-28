@@ -1,0 +1,50 @@
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 30vh;
+}
+.form__title {
+  font-size: 1.1rem;
+  background: none;
+  border: none;
+  height: 2rem;
+  padding: 1rem;
+  width: 90%;
+  margin: 0.5rem 0;
+}
+.form__title:focus {
+  outline: none;
+}
+.form ::-moz-placeholder {
+  color: rgba(255, 255, 255, 0.649);
+}
+.form :-ms-input-placeholder {
+  color: rgba(255, 255, 255, 0.649);
+}
+.form ::placeholder {
+  color: rgba(255, 255, 255, 0.649);
+}
+.form__description {
+  font-size: 1.1rem;
+  background: none;
+  border: none;
+  border-top: 1px solid rgb(255, 255, 255);
+  padding: 1rem;
+  margin: 0.5rem 0;
+  width: 90%;
+}
+.form__description:focus {
+  outline: none;
+}
+.form__submit {
+  font-size: 1.1rem;
+  color: rgb(255, 255, 255);
+  background-color: rgb(31, 165, 242);
+  border-radius: 25px;
+  border: none;
+  margin: 0.5rem 0;
+  padding: 0.5rem 1rem;
+}/*# sourceMappingURL=createForm.css.map */

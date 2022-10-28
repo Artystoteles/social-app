@@ -1,0 +1,33 @@
+.post {
+  width: 100%;
+  border-top: 2px solid white;
+  padding: 3rem;
+  color: white;
+  &__header {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  &__title {
+    font-size: 1.2rem;
+  }
+  &__author {
+    font-size: 0.8rem;
+    color: rgb(143, 143, 143);
+  }
+  &__contentContainer {
+    margin: 1rem 0;
+  }
+  &__content {
+    font-size: 1.3rem;
+    font-weight: 200;
+  }
+  &__footer {
+    display: flex;
+    justify-content: center;
+  }
+  &__likeButton {
+    border: none;
+    background: none;
+  }
+}
